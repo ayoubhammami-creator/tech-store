@@ -1,0 +1,14 @@
+.products-page {
+    min-height: 60vh;
+}
+
+.filters-section {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.page-header {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e5e7eb;
+}

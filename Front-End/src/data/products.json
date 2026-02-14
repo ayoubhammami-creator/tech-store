@@ -1,0 +1,280 @@
+[
+  {
+    "id": 1,
+    "name": "HP Elitebook X360 1030 G7",
+    "category": "Laptops",
+    "brand": "HP",
+    "price": 1680,
+    "description": "HP Elitebook X360 1030 G7 de très haute qualité - Ecran 13.3 FULL HD IPS 360 Tactile",
+    "specifications": {
+      "processor": "Intel Core i5-1145G7",
+      "ram": "16 Go DDR4",
+      "storage": "256 Go SSD Nvme",
+      "screen": "13.3\" FULL HD IPS 360 Tactile",
+      "graphics": "Intel Iris Xe Graphics",
+      "keyboard": "Clavier Lumineux"
+    },
+    "stock": 15,
+    "images": [
+      "/images/products/HP  Elitebook X360 1030 G7/1.jpg",
+      "/images/products/HP  Elitebook X360 1030 G7/2.jpg",
+      "/images/products/HP  Elitebook X360 1030 G7/3.jpg",
+      "/images/products/HP  Elitebook X360 1030 G7/4.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Dell Optiplex All-in-One",
+    "category": "All-in-One",
+    "brand": "Dell",
+    "price": 1299,
+    "description": "PC All-in-One Dell Optiplex - Solution performante pour bureau",
+    "specifications": {
+      "processor": "Intel Core i5",
+      "ram": "8 Go DDR4",
+      "storage": "256 Go SSD",
+      "screen": "23.8\" Full HD",
+      "graphics": "Intel UHD Graphics"
+    },
+    "stock": 8,
+    "images": [
+      "/images/products/ALL IN ONE Dell Optiplex/1.jpg",
+      "/images/products/ALL IN ONE Dell Optiplex/2.jpg",
+      "/images/products/ALL IN ONE Dell Optiplex/3.jpg",
+      "/images/products/ALL IN ONE Dell Optiplex/4.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "HP Elitebook 840 G3",
+    "category": "Laptops",
+    "brand": "HP",
+    "price": 899,
+    "description": "HP Elitebook 840 G3 - Ordinateur portable professionnel robuste",
+    "specifications": {
+      "processor": "Intel Core i5-6300U",
+      "ram": "8 Go DDR4",
+      "storage": "256 Go SSD",
+      "screen": "14\" Full HD",
+      "graphics": "Intel HD Graphics 520"
+    },
+    "stock": 12,
+    "images": [
+      "/images/products/HP Elitebook 840 G3/1.jpg",
+      "/images/products/HP Elitebook 840 G3/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "HP Elitebook 850 G3",
+    "category": "Laptops",
+    "brand": "HP",
+    "price": 949,
+    "description": "HP Elitebook 850 G3 - Grand écran et performance",
+    "specifications": {
+      "processor": "Intel Core i5-6300U",
+      "ram": "8 Go DDR4",
+      "storage": "256 Go SSD",
+      "screen": "15.6\" Full HD",
+      "graphics": "Intel HD Graphics 520"
+    },
+    "stock": 10,
+    "images": [
+      "/images/products/HP Elitebook 850 G3-/1.jpg",
+      "/images/products/HP Elitebook 850 G3-/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Lenovo ThinkPad T14",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "price": 1450,
+    "description": "Lenovo ThinkPad T14 - La référence du travail nomade",
+    "specifications": {
+      "processor": "Intel Core i5-10310U",
+      "ram": "16 Go DDR4",
+      "storage": "512 Go SSD",
+      "screen": "14\" Full HD IPS",
+      "graphics": "Intel UHD Graphics"
+    },
+    "stock": 15,
+    "images": [
+      "/images/products/Lenovo ThinkPad T14/1.jpg",
+      "/images/products/Lenovo ThinkPad T14/2.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "MacBook Pro 14 M1",
+    "category": "Laptops",
+    "brand": "Apple",
+    "price": 3200,
+    "description": "MacBook Pro 14 - Puissance révolutionnaire avec la puce M1 Pro",
+    "specifications": {
+      "processor": "Apple M1 Pro",
+      "ram": "16 Go",
+      "storage": "512 Go SSD",
+      "screen": "14.2\" Liquid Retina XDR",
+      "graphics": "GPU 14 cœurs"
+    },
+    "stock": 5,
+    "images": [
+      "/images/products/MACBOOK PRO 14/1.jpg",
+      "/images/products/MACBOOK PRO 14/2.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "MacBook Pro 14 M2",
+    "category": "Laptops",
+    "brand": "Apple",
+    "price": 3800,
+    "description": "MacBook Pro 14 - Encore plus de puissance avec M2 Pro",
+    "specifications": {
+      "processor": "Apple M2 Pro",
+      "ram": "16 Go",
+      "storage": "1 To SSD",
+      "screen": "14.2\" Liquid Retina XDR",
+      "graphics": "GPU 16 cœurs"
+    },
+    "stock": 3,
+    "images": [
+      "/images/products/MACBOOK PRO 14 (2)/1.jpg",
+      "/images/products/MACBOOK PRO 14 (2)/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "PC Dell Latitude 5410",
+    "category": "Laptops",
+    "brand": "Dell",
+    "price": 1150,
+    "description": "PC portable Dell Latitude 5410 - Fiable et performant",
+    "specifications": {
+      "processor": "Intel Core i5-10310U",
+      "ram": "8 Go DDR4",
+      "storage": "256 Go SSD",
+      "screen": "14\" Full HD",
+      "graphics": "Intel UHD Graphics"
+    },
+    "stock": 7,
+    "images": [
+      "/images/products/PC  Dell Latitude 5410/1.jpg",
+      "/images/products/PC  Dell Latitude 5410/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Lenovo IdeaPad 320",
+    "category": "Laptops",
+    "brand": "Lenovo",
+    "price": 699,
+    "description": "PC portable Lenovo IdeaPad 320 - Le quotidien facilité",
+    "specifications": {
+      "processor": "Intel Core i5",
+      "ram": "8 Go DDR4",
+      "storage": "1 To HDD",
+      "screen": "15.6\" HD",
+      "graphics": "Intel HD Graphics"
+    },
+    "stock": 20,
+    "images": [
+      "/images/products/PC LENOVO IDEAPAD 320/1.jpg",
+      "/images/products/PC LENOVO IDEAPAD 320/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Acer Aspire 15",
+    "category": "Laptops",
+    "brand": "Acer",
+    "price": 749,
+    "description": "Acer Aspire 15 - Elégance et efficacité",
+    "specifications": {
+      "processor": "Intel Core i5",
+      "ram": "8 Go DDR4",
+      "storage": "512 Go SSD",
+      "screen": "15.6\" Full HD",
+      "graphics": "Intel UHD Graphics"
+    },
+    "stock": 10,
+    "images": [
+      "/images/products/PC PORTABLE Acer Aspire 15/1.jpg",
+      "/images/products/PC PORTABLE Acer Aspire 15/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Asus Vivobook",
+    "category": "Laptops",
+    "brand": "Asus",
+    "price": 849,
+    "description": "Asus Vivobook - Performant et stylé",
+    "specifications": {
+      "processor": "Intel Core i5",
+      "ram": "8 Go DDR4",
+      "storage": "512 Go SSD",
+      "screen": "15.6\" Full HD",
+      "graphics": "Intel UHD Graphics"
+    },
+    "stock": 12,
+    "images": [
+      "/images/products/PC PORTABLE Asus vovobook/1.jpg",
+      "/images/products/PC PORTABLE Asus vovobook/2.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "ThinkPad P1 Gen 4",
+    "category": "Workstation",
+    "brand": "Lenovo",
+    "price": 2450,
+    "description": "ThinkPad P1 Gen 4 - Station de travail graphique ultime",
+    "specifications": {
+      "processor": "Intel Core i7-11800H",
+      "ram": "32 Go DDR4",
+      "storage": "1 To SSD Nvme",
+      "screen": "15.6\" 4K/UHD",
+      "graphics": "NVIDIA RTX A2000"
+    },
+    "stock": 4,
+    "images": [
+      "/images/products/PC THINKPAD P1 Gen 4/1.jpg",
+      "/images/products/PC THINKPAD P1 Gen 4/2.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "id": 13,
+    "name": "Acer Core i3",
+    "category": "Laptops",
+    "brand": "Acer",
+    "price": 599,
+    "description": "Acer Core i3 - Idéal pour les études et le bureau",
+    "specifications": {
+      "processor": "Intel Core i3",
+      "ram": "4 Go DDR4",
+      "storage": "500 Go HDD",
+      "screen": "15.6\" HD",
+      "graphics": "Intel HD Graphics"
+    },
+    "stock": 25,
+    "images": [
+      "/images/products/Pc Acer  Core i3/1.jpg",
+      "/images/products/Pc Acer  Core i3/2.jpg"
+    ],
+    "featured": false
+  }
+]

@@ -1,0 +1,33 @@
+.checkout-page {
+    min-height: 60vh;
+    background-color: #f8fafc;
+}
+
+.order-summary-checkout {
+    position: sticky;
+    top: 100px;
+    border: 2px solid #e5e7eb;
+}
+
+.order-item-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.order-items {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-check-input:checked {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}

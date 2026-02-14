@@ -1,0 +1,11 @@
+.contact-page {
+    min-height: 60vh;
+}
+
+.info-card {
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateX(5px);
+}
