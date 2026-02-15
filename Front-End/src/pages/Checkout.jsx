@@ -38,31 +38,9 @@ const Checkout = () => {
         });
     };
 
-   /* const handleSubmit = (e) => {
-        e.preventDefault();
+   
 
-        // Validate form
-        if (!formData.fullName || !formData.phone || !formData.address || !formData.city || !formData.region) {
-            toast.error('Veuillez remplir tous les champs obligatoires');
-            return;
-        }
-
-        // Simulate payment processing
-        toast.loading('Traitement du paiement...');
-
-        setTimeout(() => {
-            toast.dismiss();
-            toast.success('Commande passée avec succès !');
-            dispatch(clearCart());
-
-            // Redirect to success page or home
-            setTimeout(() => {
-                navigate('/');
-            }, 2000);
-        }, 2000);
-    };*/
-
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
   e.preventDefault();
 
   if (!formData.fullName || !formData.phone || !formData.address || !formData.city || !formData.region) {
@@ -70,36 +48,52 @@ const Checkout = () => {
     return;
   }
 
-  toast.loading('Traitement du paiement...');
+  if (paymentMethod !== 'stripe') {
+    toast.error("Pour l'instant seul Stripe est activé");
+    return;
+  }
 
-  setTimeout(() => {
+  try {
+    toast.loading("Redirection vers Stripe...");
+
+    const response = await fetch(
+      `${import.meta.env.VITE_API_BASE_URL}/api/create-checkout-session`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          items: cart.map(item => ({
+            name: item.name,
+            price: item.price,
+            quantity: item.quantity
+          }))
+        }),
+      }
+    );
+
+    const data = await response.json();
     toast.dismiss();
 
-    const isSuccess = Math.random() > 0.5;
-    dispatch(clearCart());
-
-    if (isSuccess) {
-      toast.success('Commande passée avec succès !');
-      navigate('/payment-success');
+    if (data.url) {
+      window.location.href = data.url;
     } else {
-      toast.error('Échec du paiement');
-      navigate('/payment-failed');
+      toast.error("Erreur lors de la création de la session Stripe");
     }
-  }, 2000);
+
+  } catch (error) {
+    toast.dismiss();
+    toast.error("Erreur serveur");
+    console.error(error);
+  }
 };
 
 
-    if (cart.length === 0) {
-        return (
-            <div className="container py-5 text-center">
-                <h2>Votre panier est vide</h2>
-                <p className="text-muted">Ajoutez des produits avant de passer commande</p>
-                <button onClick={() => navigate('/products')} className="btn btn-primary mt-3">
-                    Voir nos produits
-                </button>
-            </div>
-        );
-    }
+  
+
+
+   
 
     return (
         <div className="checkout-page py-5">

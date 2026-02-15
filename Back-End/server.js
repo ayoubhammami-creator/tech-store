@@ -1,5 +1,4 @@
-const Stripe = require("stripe");
-const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
+
 
 const express = require("express");
 const dotenv = require("dotenv");
